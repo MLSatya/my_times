@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+
+body{
+	background-color: azure;
+}
+
+/*Header Content*/
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  position:fixed;
+  align-items: center;
+  border-bottom: solid black 1px;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 30px;
+}
+
+.logo span {
+	color:mediumaquamarine;	
+}
+
+.logo img {
+	width: 70px;
+	height: 60px;
+	margin-right: 12px;
+}
+
+header nav {
+	padding-right: 40px;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  width: 1300px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 78px;
+  margin-left: auto;
+  padding-top: 116px;
+}
+
+div {
+	border: 1px solid black;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	margin-right:32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
