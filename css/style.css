@@ -86,7 +86,7 @@ div {
 }
 
 .lead-story .image-content {
-	background-image:url(../img-story-main.png);
+	background-image:url(../img/img-story-main.png);
 	width: 630px;
 	margin-top: 0;
 	font-size: 40px;
@@ -94,7 +94,7 @@ div {
 }
 
 .fall-canceled .image-content {
-	background-image:url(../img-story-2.png);
+	background-image:url(../img/img-story-2.png);
 	
 }
 
