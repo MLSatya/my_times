@@ -3,11 +3,27 @@
 
 
 body{
-	background-color: azure;
+}
+
+/*Universal Styles*/
+.image-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	
+}
+
+.narrative {
+	
+	
 }
 
 /*Header Content*/
-
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -63,14 +79,32 @@ div {
 	margin-right:32px;
 }
 
+/*Large Column*/
+
 .column.large {
   width: 630px;
 }
 
+.lead-story .image-content {
+	background-image:url(../img-story-main.png);
+	width: 630px;
+	margin-top: 0;
+	font-size: 40px;
+	text-align: left;
+}
+
+.fall-canceled .image-content {
+	background-image:url(../img-story-2.png);
+	
+}
+
+/*Medium Column*/
 .column.medium {
   width: 300px;
 }
 
+
+/*Small Column*/
 .column.small {
   width: 240px;
 }
